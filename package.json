@@ -1,0 +1,21 @@
+{
+  "name": "react_webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "watchify -o build/bundle.js -v -d app/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "css-loader": "^0.23.1",
+    "image-webpack-loader": "^1.7.0",
+    "jsx-loader": "^0.13.2",
+    "react": "^15.0.1",
+    "react-dom": "^15.0.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0"
+  }
+}
