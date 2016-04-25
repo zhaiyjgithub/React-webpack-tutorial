@@ -4,6 +4,7 @@ This is a demo of React with webpack tutorial.
 
 ##install
 **npm install**,to load some dependencies;
+
 **npm start**.
 
 
